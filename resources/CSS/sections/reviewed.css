@@ -7,7 +7,7 @@
 .top__rated 
 {
   display: inline-block;
-  background: #f7f5f1;
+  background: #ffffff;
 
   padding: 20px;
   margin: 20px;
@@ -20,7 +20,7 @@
 .top__rated:hover
 {
   transition: all 0.3s ease;
-  background-color: #ffffff;
+  background-color: #f7f5f1;
 }
 
 .top__rated .top__rated-img
