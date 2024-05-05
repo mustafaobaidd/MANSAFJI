@@ -62,7 +62,7 @@
 
     transition: all 0.3s ease;
 
-    z-index: 12;
+    z-index: 11;
 }
 
 .about-us__button:hover
