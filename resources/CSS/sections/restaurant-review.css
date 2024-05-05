@@ -1,0 +1,114 @@
+#comment-list {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px; 
+
+    overflow-y: auto; 
+}
+
+.restaurant-review 
+{
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.restaurant-img
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.comment-section
+{
+    padding: 20px;
+    background: #f7f5f1;
+}
+
+.sticky-comment 
+{
+    background-color: #fff4cf;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.comment-item 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-pic 
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#username-input, #profile-pic-input, #comment-input 
+{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+    box-sizing: border-box;
+}
+
+.comment-button 
+{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-button:hover 
+{
+    background-color: #0056b3;
+}
+
+.rating 
+{
+    margin: 10px 0;
+
+    display: inline-block;
+    direction: rtl; 
+}
+
+.rating .restaurant-label
+{
+    margin-right: 5px;
+
+    cursor: pointer;
+    display: inline-block;
+    direction: ltr;
+}
+
+.rating .restaurant-label input
+{
+    display: none; 
+}
+
+.rating .restaurant-label:before 
+{
+    content: '★';
+    color: #ccc;
+
+    font-size: 20px;
+}
+
+.rating .restaurant-label:hover:before,
+.rating input:checked ~ .restaurant-label:before 
+{
+    color: gold;
+}

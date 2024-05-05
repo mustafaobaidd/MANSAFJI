@@ -1,0 +1,112 @@
+.jameed 
+{
+    display: flex;
+    min-height: calc(100vh - 74px);
+    overflow: hidden;
+}
+
+.jameed-image 
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    z-index: -1;
+}
+  
+.jameed-image .mansaf-image
+{
+    width: 120%;
+    height: 100%;
+    object-fit: contain;
+}
+  
+.jameed-image-overlay 
+{
+   position: absolute;
+
+   /*  width: 400%;
+    height: 200%;
+  
+    background-color: #dfd3c3;
+    z-index: -1; */
+}
+
+.jameed-image .mansaf__font-h2 
+{
+    position: absolute;
+    bottom: 10%;
+    padding: 20px;  
+
+    font-weight: 700;
+    font-size: 120px;
+    /* line-height: 138px; */
+    color: #fff;
+}
+
+.jameed-content 
+{
+    flex: 1.22;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.jameed-content-info
+{
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.jameed-content-info .jameed-content__h1
+{
+    font-size: 80px;
+    font-weight: 600px;
+
+    margin: 32px 0 0 31px;
+}
+
+.jameed-content-info .jameed-content__p
+{
+    margin: 32px 0 0 32px;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.jameed-content__buttons
+{
+    margin: 41px 0 0 41px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.jameed-content__order-button
+{
+    padding: 20px;
+    border-radius: 36px;
+    min-width: 212px;
+    outline: none;
+    border: none;
+    background: #303030;
+  
+    cursor: pointer;
+  
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    transition: all 0.3s ease;
+}
+
+.jameed-content__order-button:hover
+{
+    background-color: black;
+}

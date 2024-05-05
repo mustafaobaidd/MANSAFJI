@@ -1,0 +1,31 @@
+@import url("sections/header.css");
+
+@import url("sections/navbar.css");
+
+@import url("sections/jameed.css");
+
+@import url("sections/about.css");
+
+@import url("sections/reviewed.css");
+
+@import url("sections/restaurant-review.css");
+
+@import url("sections/footer.css");
+
+@import url("sections/mobile.css");
+
+
+
+* 
+{
+  font-family: "Play", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+	background: #dfd3c3; 
+}
+
