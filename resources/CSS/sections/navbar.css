@@ -13,6 +13,8 @@
 
   transition: top 0.3s ease-in-out;
   box-sizing: border-box;
+
+  z-index: 10;
 }
 
 
@@ -123,6 +125,8 @@
   pointer-events: none;
   transition: all 0.4s ease;
   background: rgba(0, 0, 0, 0.3);
+
+  z-index: 15;
 }
 
 .nav__bar.open ~ .nav__bar-overlay 
